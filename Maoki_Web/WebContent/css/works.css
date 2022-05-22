@@ -4,7 +4,7 @@
   position: relative;
   width: 100%;
   padding-top: 56.25%;
-  margin: 72px 0;
+  margin: 64px 0;
 }
 .youtube iframe {
   position: absolute;
@@ -18,13 +18,13 @@
 	color: #777;
 }
 
-.works_detail h3 {
+.works_detail h3, h4, h5 {
 	color: #212529;
 }
 
 .works_detail_info {
 	color: #777;
-	margin: 0 0 12px 2em;
+	margin: 12px 0 12px 2em;
 }
 
 .works_detail_info p {
@@ -40,11 +40,15 @@
 	width: 7em;
 }
 
+.works_detail .works-link_area {
+	padding-bottom: 24px;
+	border-bottom: 2px dotted #888;
+}
+
 .works_detail .works-link {
 	display: flex;
 	flex-wrap: nowrap;
-	margin: 0 0 72px 2em;
-
+	margin-left: 2em;
 	display: table;
 }
 
@@ -69,9 +73,23 @@
 }
 
 .works_detail_img {
-	margin: 72px 0 144px;
+	margin: 72px 0;
 }
 
 .works_detail_img .col {
 	padding: 1px;
+}
+
+.works_detail_comment {
+	margin: 72px 24px;
+	color: #555;
+}
+
+.works_detail_comment p {
+	text-indent:1em;
+}
+
+.works_detail_index {
+	margin: 72px 0 144px;
+	text-align: center;
 }

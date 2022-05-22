@@ -521,6 +521,15 @@ body {
 	margin-right: 3px;
 }
 
+.card-body .works-data .detail {
+	color: #55aa55;
+}
+
+.card-body .works-data .detail a {
+	color: #55aa55;
+	text-decoration: underline;
+}
+
 /*
  * card ( YouTube / niconico )
  */
