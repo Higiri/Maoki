@@ -115,12 +115,9 @@ $dsp_name = '';
 
 //自動返信メールの冒頭の文言 ※日本語部分のみ変更可
 $remail_text = <<< TEXT
-
 お問い合わせありがとうございました。
 早急にご返信致しますので今しばらくお待ちください。
-
 送信内容は以下でございます。
-
 TEXT;
 
 
@@ -129,14 +126,12 @@ $mailFooterDsp = 1;
 
 //上記で「1」を選択時に表示する署名（フッター）（FOOTER～FOOTER;の間に記述してください）
 $mailSignature = <<< FOOTER
-
 ──────────────────────
 早川舞桜楓
 E-mail: hayakawamaoki@gmail.com
 Twitter: https://twitter.com/maoki0213
 URL: https://h-maoki.com
 ──────────────────────
-
 FOOTER;
 
 
