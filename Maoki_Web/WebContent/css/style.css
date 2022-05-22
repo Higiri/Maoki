@@ -112,7 +112,7 @@ body {
 		left: 20px;
 		right: auto
 }
- 
+
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
 		right: 20px;
@@ -815,6 +815,55 @@ body {
 .request_content .table-hover tbody tr:hover th {
 	background-color: #F3F6EE; /* #E2F1F9 */
 }
+
+.display-5 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* plan */
+.request_content_dotted .low_plan {
+	border-color: #d6e9c6;
+}
+
+.request_content_dotted .normal_plan {
+	border-color: #bce8f1;
+}
+
+.request_content_dotted .low_plan_head {
+	color: #3c763d;
+	background-color: #dff0d8;
+	border-color: #d6e9c6;
+}
+
+.request_content_dotted .normal_plan_head {
+	color: #31708f;
+	background-color: #d9edf7;
+	border-color: #bce8f1;
+}
+.request_content_dotted .card-body,
+.request_content_dotted .list-group-item{
+	background-color: #f9f9f9;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+
+/*
+ * contsct
+ * ------- */
 
 .contact_content {
 	margin: 1em 0;
